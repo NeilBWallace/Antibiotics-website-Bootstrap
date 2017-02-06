@@ -1,0 +1,287 @@
+ body {
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1366px;
+	 height: 358px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #Linkbanner 
+{ 
+	 left: -3px; 
+	 top: 167px; 
+	 position: absolute; 
+	 width: 1372px;
+	 height: 67px;
+	 z-index:1;
+} 
+
+ #WhatsNewInThisVersio 
+{ 
+	 left: 55px; 
+	 top: 197px; 
+	 position: absolute; 
+	 width: 222px;
+	 height: 15px;
+	 z-index:2;
+} 
+
+ #AboutTheseGuidelines 
+{ 
+	 left: 421px; 
+	 top: 197px; 
+	 position: absolute; 
+	 width: 195px;
+	 height: 15px;
+	 z-index:3;
+} 
+
+ #Feedback 
+{ 
+	 left: 1179px; 
+	 top: 197px; 
+	 position: absolute; 
+	 width: 85px;
+	 height: 15px;
+	 z-index:4;
+} 
+
+ #GettheApp 
+{ 
+	 left: 817px; 
+	 top: 197px; 
+	 position: absolute; 
+	 width: 105px;
+	 height: 15px;
+	 z-index:5;
+} 
+
+ #Header 
+{ 
+	 left: -1px; 
+	 top: -31px; 
+	 position: absolute; 
+	 width: 1368px;
+	 height: 194px;
+	 z-index:6;
+} 
+
+ #Greyseperationline 
+{ 
+	 left: -2px; 
+	 top: 161px; 
+	 position: absolute; 
+	 width: 1369px;
+	 height: 8px;
+	 z-index:7;
+} 
+
+ #Antibioticslogo 
+{ 
+	 left: 661px; 
+	 top: -9px; 
+	 position: absolute; 
+	 width: 95px;
+	 height: 82px;
+	 z-index:8;
+} 
+
+ #HertfordshirePrimary 
+{ 
+	 left: 498px; 
+	 top: 80px; 
+	 position: absolute; 
+	 width: 371px;
+	 height: 29px;
+	 z-index:9;
+} 
+
+ #AntibioticGuidelines 
+{ 
+	 left: 510px; 
+	 top: 121px; 
+	 position: absolute; 
+	 width: 345px;
+	 height: 19px;
+	 z-index:10;
+} 
+
+ #NHSLogo 
+{ 
+	 left: 1227px; 
+	 top: 6px; 
+	 position: absolute; 
+	 width: 131px;
+	 height: 53px;
+	 z-index:11;
+} 
+
+ #DisclaimerBackground 
+{ 
+	 left: -3px; 
+	 top: 231px; 
+	 position: absolute; 
+	 width: 1370px;
+	 height: 82px;
+	 z-index:12;
+} 
+
+ #Disclaimer 
+{ 
+	 left: 623px; 
+	 top: 269px; 
+	 position: absolute; 
+	 width: 130px;
+	 height: 19px;
+	 z-index:13;
+} 
+
+ #Thiswebsiteisintende 
+{ 
+	 left: 73px; 
+	 top: 331px; 
+	 position: absolute; 
+	 width: 1220px;
+	 height: 77px;
+	 z-index:14;
+} 
+
+ #TextBorderBOTTOM 
+{ 
+	 left: 11px; 
+	 top: 434px; 
+	 position: absolute; 
+	 width: 1340px;
+	 height: 6px;
+	 z-index:15;
+} 
+
+ #TextBorderTOP 
+{ 
+	 left: 11px; 
+	 top: 306px; 
+	 position: absolute; 
+	 width: 1340px;
+	 height: 6px;
+	 z-index:16;
+} 
+
+ #restrictedIcon 
+{ 
+	 left: 440px; 
+	 top: 526px; 
+	 position: absolute; 
+	 width: 101px;
+	 height: 132px;
+	 z-index:17;
+} 
+
+ #warningIcon 
+{ 
+	 left: 758px; 
+	 top: 532px; 
+	 position: absolute; 
+	 width: 135px;
+	 height: 126px;
+	 z-index:18;
+} 
+
+ #guidelinesIcon 
+{ 
+	 left: 105px; 
+	 top: 516px; 
+	 position: absolute; 
+	 width: 100px;
+	 height: 142px;
+	 z-index:19;
+} 
+
+ #principlesIcon 
+{ 
+	 left: 1103px; 
+	 top: 523px; 
+	 position: absolute; 
+	 width: 114px;
+	 height: 135px;
+	 z-index:20;
+} 
+
+ #TreatmentGuidelines 
+{ 
+	 left: 63px; 
+	 top: 687px; 
+	 position: absolute; 
+	 width: 207px;
+	 height: 19px;
+	 z-index:21;
+} 
+
+ #RestrictedAntibiotic 
+{ 
+	 left: 388px; 
+	 top: 687px; 
+	 position: absolute; 
+	 width: 206px;
+	 height: 19px;
+	 z-index:22;
+} 
+
+ #PenicillinAllergy 
+{ 
+	 left: 749px; 
+	 top: 687px; 
+	 position: absolute; 
+	 width: 158px;
+	 height: 19px;
+	 z-index:23;
+} 
+
+ #PrinciplesOfTreatmen 
+{ 
+	 left: 1051px; 
+	 top: 687px; 
+	 position: absolute; 
+	 width: 226px;
+	 height: 19px;
+	 z-index:24;
+} 
+
+ #FooterBackground 
+{ 
+	 left: -3px; 
+	 top: 733px; 
+	 position: absolute; 
+	 width: 1372px;
+	 height: 38px;
+	 z-index:25;
+} 
+
+ #HBLICTLogo 
+{ 
+	 left: 10px; 
+	 top: 738px; 
+	 position: absolute; 
+	 width: 73px;
+	 height: 28px;
+	 z-index:26;
+} 
+
+ #HBLICT2016 
+{ 
+	 left: 1250px; 
+	 top: 750px; 
+	 position: absolute; 
+	 width: 91px;
+	 height: 11px;
+	 z-index:27;
+} 

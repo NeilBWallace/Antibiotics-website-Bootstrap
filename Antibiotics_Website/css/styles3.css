@@ -1,0 +1,382 @@
+ body {
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1734px;
+	 height: 1024px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #Header 
+{ 
+	 left: -9px; 
+	 top: 156px; 
+	 position: absolute; 
+	 width: 1545px;
+	 height: 50px;
+	 z-index:1;
+} 
+
+ #Greyseperationline 
+{ 
+	 left: 0px; 
+	 top: 243px; 
+	 position: absolute; 
+	 width: 1369px;
+	 height: 8px;
+	 z-index:2;
+} 
+
+ #Antibioticslogo 
+{ 
+	 left: 861px; 
+	 top: 81px; 
+	 position: absolute; 
+	 width: 95px;
+	 height: 82px;
+	 z-index:3;
+    margin-top: 0px;
+} 
+
+ #HertfordshirePrimary 
+{ 
+	 left: 705px; 
+	 top: 173px; 
+	 position: absolute; 
+	 width: 371px;
+	 height: 29px;
+	 z-index:4;
+} 
+
+ #AntibioticGuidelines 
+{ 
+	 left: 717px; 
+	 top: 214px; 
+	 position: absolute; 
+	 width: 345px;
+	 height: 19px;
+	 z-index:5;
+} 
+
+ #NHSLogo 
+{ 
+	 left: 1434px; 
+	 top: 75px; 
+	 position: absolute; 
+	 width: 131px;
+	 height: 53px;
+	 z-index:6;
+} 
+
+ #DisclaimerBackground 
+{ 
+	 left: 200px; 
+	 top: 331px; 
+	 position: absolute; 
+	 width: 1374px;
+	 height: 82px;
+	 z-index:7;
+} 
+
+ #TreatmentGuidelines 
+{ 
+	 left: 760px; 
+	 top: 367px; 
+	 position: absolute; 
+	 width: 267px;
+	 height: 19px;
+	 z-index:8;
+} 
+
+ #TextBorderTOP 
+{ 
+	 left: 218px; 
+	 top: 403px; 
+	 position: absolute; 
+	 width: 1340px;
+	 height: 6px;
+	 z-index:9;
+    margin-bottom: 7px;
+} 
+
+ #Linkbanner 
+{ 
+	 left: 204px; 
+	 top: 260px; 
+	 position: absolute; 
+	 width: 1372px;
+	 height: 67px;
+	 z-index:10;
+} 
+
+ #WhatsNewInThisVersio 
+{ 
+	 left: 262px; 
+	 top: 283px; 
+	 position: absolute; 
+	 width: 222px;
+	 height: 15px;
+	 z-index:11;
+} 
+
+ #Home 
+{ 
+	 left: 331px; 
+	 top: 220px; 
+	 position: absolute; 
+	 width: 50px;
+	 height: 15px;
+	 z-index:12;
+} 
+
+ #AboutTheseGuidelines 
+{ 
+	 left: 628px; 
+	 top: 283px; 
+	 position: absolute; 
+	 width: 195px;
+	 height: 15px;
+	 z-index:13;
+} 
+
+ #Feedback 
+{ 
+	 left: 1386px; 
+	 top: 283px; 
+	 position: absolute; 
+	 width: 85px;
+	 height: 15px;
+	 z-index:14;
+} 
+
+ #GettheApp 
+{ 
+	 left: 1024px; 
+	 top: 282px; 
+	 position: absolute; 
+	 width: 105px;
+	 height: 15px;
+	 z-index:15;
+} 
+
+ #Meningitis 
+{ 
+	 left: 1434px; 
+	 top: 611px; 
+	 position: absolute; 
+	 width: 84px;
+	 height: 15px;
+	 z-index:16;
+     
+} 
+
+ #meningitis 
+{ 
+	 left: 1428px; 
+	 top: 499px; 
+	 position: absolute; 
+	 width: 96px;
+	 height: 95px;
+	 z-index:17;
+     
+} 
+
+ #DentalInfections 
+{ 
+	 left: 1259px; 
+	 top: 611px; 
+	 position: absolute; 
+	 width: 141px;
+	 height: 15px;
+	 z-index:18;
+    right: 334px;
+} 
+
+ #Dental 
+{ 
+	 left: 1283px; 
+	 top: 500px; 
+	 position: absolute; 
+	 width: 92px;
+	 height: 92px;
+	 z-index:19;
+} 
+
+ #ViralInfections 
+{ 
+	 left: 1122px; 
+	 top: 611px; 
+	 position: absolute; 
+	 width: 122px;
+	 height: 15px;
+	 z-index:20;
+} 
+
+ #virus 
+{ 
+	 left: 1135px; 
+	 top: 498px; 
+	 position: absolute; 
+	 width: 95px;
+	 height: 95px;
+	 z-index:21;
+} 
+
+ #SkinInfections 
+{ 
+	 left: 978px; 
+	 top: 610px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 15px;
+	 z-index:22;
+} 
+
+ #skin 
+{ 
+	 left: 989px; 
+	 top: 497px; 
+	 position: absolute; 
+	 width: 95px;
+	 height: 95px;
+	 z-index:23;
+} 
+
+ #GenitalTract 
+{ 
+	 left: 836px; 
+	 top: 609px; 
+	 position: absolute; 
+	 width: 108px;
+	 height: 15px;
+	 z-index:24;
+} 
+
+ #genital 
+{ 
+	 left: 844px; 
+	 top: 497px; 
+	 position: absolute; 
+	 width: 92px;
+	 height: 95px;
+	 z-index:25;
+} 
+
+ #GastroIntestinalTrac 
+{ 
+	 left: 676px; 
+	 top: 609px; 
+	 position: absolute; 
+	 width: 135px;
+	 height: 35px;
+	 z-index:26;
+} 
+
+ #Gastro 
+{ 
+	 left: 698px; 
+	 top: 497px; 
+	 position: absolute; 
+	 width: 92px;
+	 height: 92px;
+	 z-index:27;
+} 
+
+ #UrinaryTract 
+{ 
+	 left: 540px; 
+	 top: 607px; 
+	 position: absolute; 
+	 width: 103px;
+	 height: 15px;
+	 z-index:28;
+} 
+
+ #urinary 
+{ 
+	 left: 545px; 
+	 top: 495px; 
+	 position: absolute; 
+	 width: 92px;
+	 height: 92px;
+	 z-index:29;
+} 
+
+ #LowerRespiratory 
+{ 
+	 left: 392px; 
+	 top: 607px; 
+	 position: absolute; 
+	 width: 93px;
+	 height: 35px;
+	 z-index:30;
+} 
+
+ #lungs 
+{ 
+	 left: 394px; 
+	 top: 496px; 
+	 position: absolute; 
+	 width: 89px;
+	 height: 89px;
+	 z-index:31;
+} 
+
+ #nose 
+{ 
+	 left: 248px; 
+	 top: 496px; 
+	 position: absolute; 
+	 width: 89px;
+	 height: 89px;
+	 z-index:32;
+} 
+
+ #UpperRespiratory 
+{ 
+	 left: 246px; 
+	 top: 607px; 
+	 position: absolute; 
+	 width: 93px;
+	 height: 35px;
+	 z-index:33;
+} 
+
+ #FooterBackground 
+{ 
+	 left: 204px; 
+	 top: 760px; 
+	 position: absolute; 
+	 width: 1372px;
+	 height: 38px;
+	 z-index:34;
+} 
+
+ #HBLICTLogo 
+{ 
+	 left: 217px; 
+	 top: 765px; 
+	 position: absolute; 
+	 width: 73px;
+	 height: 28px;
+	 z-index:35;
+} 
+
+ #HBLICT2016 
+{ 
+	 left: 1457px; 
+	 top: 777px; 
+	 position: absolute; 
+	 width: 91px;
+	 height: 11px;
+	 z-index:36;
+} 

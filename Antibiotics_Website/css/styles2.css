@@ -1,0 +1,756 @@
+ body {
+	margin: 0;
+	padding: 0;
+  font-family: 'Conv_Ubuntu-Light';
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1;
+    text-decoration:none;
+border:0;
+outline:none;
+ }
+ img{border:0}
+@font-face {
+    font-family: 'Conv_Ubuntu-Light';
+    src: url('../fonts/Ubuntu-Light.eot');
+    src: url('../fonts/Ubuntu-Light.woff') format('woff'), url('../fonts/Ubuntu-Light.ttf') format('truetype'), url('../fonts/Ubuntu-Light.svg') format('svg');
+}
+     #Home
+{ 
+	 left: 10%; 
+	 top: 5%; 
+	 position: absolute; 
+	 width: 92px;
+	 height: 92px;
+	 z-index:27;
+} 
+
+   #TreatmentGuidelines2
+{ 
+	 left: 43%; 
+	 top: 35%; 
+	 position: absolute; 
+	 width: 92px;
+	 height: 92px;
+	 z-index:27;
+} 
+
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1366px;
+	 height: 768px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #Linkbanner 
+{ 
+	 left: -3px; 
+	 top: 167px; 
+	 position: absolute; 
+	 width: 1372px;
+	 height: 67px;
+	 z-index:1;
+} 
+
+ 
+  #Home
+{ 
+	 left: 30px; 
+	 top: 197px; 
+	 position: absolute; 
+	 width: 100px;
+	 height: 15px;
+	 z-index:2;
+} 
+
+
+   #WhatsNew 
+{ 
+	 left: 88px; 
+	 top: 314px; 
+	 position: absolute; 
+	
+	 height: 15px;
+	 z-index:2;
+} 
+
+ #WhatsNewInThisVersio 
+{ 
+	 left: 200px; 
+	 top: 197px; 
+	 position: absolute; 
+	 width: 100px;
+	 height: 15px;
+	 z-index:2;
+} 
+
+ #AboutTheseGuidelines 
+{ 
+	 left: 421px; 
+	 top: 197px; 
+	 position: absolute; 
+	 width: 195px;
+	 height: 15px;
+	 z-index:3;
+} 
+
+ #Feedback 
+{ 
+	 left: 1179px; 
+	 top: 197px; 
+	 position: absolute; 
+	 width: 85px;
+	 height: 15px;
+	 z-index:4;
+} 
+
+ #GettheApp 
+{ 
+	 left: 817px; 
+	 top: 197px; 
+	 position: absolute; 
+	 width: 105px;
+	 height: 15px;
+	 z-index:5;
+} 
+
+ #Header 
+{ 
+	 left: -1px; 
+	 top: -31px; 
+	 position: absolute; 
+	 width: 1368px;
+	 height: 194px;
+	 z-index:6;
+} 
+
+ #Greyseperationline 
+{ 
+	 left: -2px; 
+	 top: 161px; 
+	 position: absolute; 
+	 width: 1369px;
+	 height: 8px;
+	 z-index:7;
+} 
+
+ #Antibioticslogo 
+{ 
+	 left: 661px; 
+	 top: -9px; 
+	 position: absolute; 
+	 width: 95px;
+	 height: 82px;
+	 z-index:8;
+} 
+
+ #HertfordshirePrimary 
+{ 
+	 left: 498px; 
+	 top: 80px; 
+	 position: absolute; 
+	 width: 371px;
+	 height: 29px;
+	 z-index:9;
+} 
+
+ #AntibioticGuidelines 
+{ 
+	 left: 510px; 
+	 top: 121px; 
+	 position: absolute; 
+	 width: 345px;
+	 height: 19px;
+	 z-index:10;
+} 
+
+ #NHSLogo 
+{ 
+	 left: 1227px; 
+	 top: 6px; 
+	 position: absolute; 
+	 width: 131px;
+	 height: 53px;
+	 z-index:11;
+} 
+
+ #DisclaimerBackground 
+{ 
+	 left: -3px; 
+	 top: 231px; 
+	 position: absolute; 
+	 width: 1370px;
+	 height: 82px;
+	 z-index:12;
+} 
+
+ #Disclaimer 
+{ 
+	 left: 623px; 
+	 top: 269px; 
+	 position: absolute; 
+	 width: 130px;
+	 height: 19px;
+	 z-index:13;
+} 
+
+ #Thiswebsiteisintende 
+{ 
+	 left: 73px; 
+	 top: 331px; 
+	 position: absolute; 
+	 width: 1220px;
+	 height: 77px;
+	 z-index:14;
+} 
+
+ #TextBorderBOTTOM 
+{ 
+	 left: 11px; 
+	 top: 434px; 
+	 position: absolute; 
+	 width: 1340px;
+	 height: 6px;
+	 z-index:15;
+} 
+
+ #TextBorderTOP 
+{ 
+	 left: 11px; 
+	 top: 250px; 
+	 position: absolute; 
+	 width: 1340px;
+	 height: 6px;
+	 z-index:16;
+} 
+
+ #restrictedIcon 
+{ 
+	 left: 440px; 
+	 top: 450px; 
+	 position: absolute; 
+	 width: 101px;
+	 height: 132px;
+	 z-index:17;
+} 
+
+ #warningIcon 
+{ 
+	 left: 758px; 
+	 top: 450px; 
+	 position: absolute; 
+	 width: 135px;
+	 height: 126px;
+	 z-index:18;
+} 
+
+ #guidelinesIcon 
+{ 
+	 left: 105px; 
+	 top: 450px; 
+	 position: absolute; 
+	 width: 100px;
+	 height: 142px;
+	 z-index:19;
+} 
+
+ #principlesIcon 
+{ 
+	 left: 1103px; 
+	 top: 450px; 
+	 position: absolute; 
+	 width: 114px;
+	 height: 135px;
+	 z-index:20;
+} 
+
+ #TreatmentGuidelines 
+{ 
+	 left: 63px; 
+	 top: 620px; 
+	 position: absolute; 
+	 width: 207px;
+	 height: 19px;
+	 z-index:21;
+} 
+
+ #FurtherinfoBG 
+{ 
+	 left: 121px; 
+	 top: 971px; 
+	 position: absolute; 
+	 width: 1269px;
+	 height: 52px;
+	 z-index:19;
+} 
+
+  #Sedquisaccumsantorto 
+{ 
+	 left: 137px; 
+	 top: 1037px; 
+	 position: absolute; 
+	 width: 1247px;
+	 height: 56px;
+	 z-index:20;
+} 
+
+ #FurtherInfomation 
+{ 
+	 left: 149px; 
+	 top: 989px; 
+	 position: absolute; 
+	 width: 227px;
+	 height: 19px;
+	 z-index:21;
+} 
+
+ #SecondlineBG 
+{ 
+	 left: 121px; 
+	 top: 850px; 
+	 position: absolute; 
+	 width: 1269px;
+	 height: 52px;
+	 z-index:22;
+} 
+
+ #SecondLine 
+{ 
+	 left: 149px; 
+	 top: 866px; 
+	 position: absolute; 
+	 width: 153px;
+	 height: 19px;
+	 z-index:23;
+} 
+
+ #Aeneanpellentesquedo 
+{ 
+	 left: 137px; 
+	 top: 909px; 
+	 position: absolute; 
+	 width: 1182px;
+	 height: 56px;
+	 z-index:24;
+} 
+
+ #FirstlineBG 
+{ 
+	 left: 121px; 
+	 top: 739px; 
+	 position: absolute; 
+	 width: 1269px;
+	 height: 52px;
+	 z-index:25;
+} 
+
+  
+
+ #Loremipsumdolorsitam 
+{ 
+	 left: 124px; 
+	 top: 200px; 
+	 position: absolute; 
+	 width: 1257px;
+	 height: 36px;
+	 z-index:27; 
+	 position: absolute; 
+	 width: 1257px;
+	 height: 36px;
+	 z-index:27;
+} 
+
+ #TitleBG 
+ {
+ left: 0px; 
+	 top: 260px; 
+	 position: absolute; 
+	 width: 1257px;
+	 height: 15px;
+	 z-index:29;
+
+ }
+
+ #Titles 
+ {
+ left: 0px; 
+	 top: 260px; 
+	 position: absolute; 
+	 width: 1257px;
+	 height: 15px;
+	 z-index:29;
+
+ }
+
+#Title 
+{ 
+	 left: 0px; 
+	 top: 205px; 
+	 position: absolute; 
+	 width: 48px;
+	 height: 19px;
+	 z-index:29;
+} 
+
+
+ #FurtherInfomation 
+{ 
+	 left: 149px; 
+	 top: 989px; 
+	 position: absolute; 
+	 width: 227px;
+	 height: 19px;
+	 z-index:21;
+} 
+
+ #SecondlineBG 
+{ 
+	 left: 121px; 
+	 top: 850px; 
+	 position: absolute; 
+	 width: 1269px;
+	 height: 52px;
+	 z-index:22;
+} 
+
+ #SecondLine 
+{ 
+	 left: 149px; 
+	 top: 866px; 
+	 position: absolute; 
+	 width: 153px;
+	 height: 19px;
+	 z-index:23;
+} 
+
+ #AeneanpellentesquedoeBG 
+{ 
+	 left: 121px; 
+	 top: 300px; 
+	 position: absolute; 
+	 width: 1269px;
+	 height: 52px;
+	 z-index:25;
+} 
+
+ #FirstLine 
+{ 
+	 left: 149px; 
+	 top: 300px; 
+	 position: absolute; 
+	 width: 102px;
+	 height: 19px;
+	 z-index:26;
+} 
+
+ #Loremipsumdoll{
+
+ 	 left: 149px; 
+	 top: 754px; 
+	 position: absolute; 
+	 width: 102px;
+	 height: 19px;
+	 z-index:26;
+} 
+
+ #Loremipsumdolorsitam 
+
+{
+	 left: 124px; 
+	 top: 802px; 
+	 position: absolute; 
+	 width: 1257px;
+	 height:  19px;
+	 z-index:29;
+} 
+ 
+
+
+ #RestrictedAntibiotic 
+{ 
+	 left: 388px; 
+	 top: 620px; 
+	 position: absolute; 
+	 width: 206px;
+	 height: 19px;
+	 z-index:22;
+} 
+
+ #PenicillinAllergy 
+{ 
+	 left: 749px; 
+	 top: 620px; 
+	 position: absolute; 
+	 width: 158px;
+	 height: 19px;
+	 z-index:23;
+} 
+
+ #PrinciplesOfTreatmen 
+{ 
+	 left: 1051px; 
+	 top: 620px; 
+	 position: absolute; 
+	 width: 226px;
+	 height: 19px;
+	 z-index:24;
+} 
+
+ #FooterBackground 
+{ 
+	 left: -3px; 
+	 top: 733px; 
+	 position: absolute; 
+	 width: 1372px;
+	 height: 38px;
+	 z-index:25;
+} 
+
+ #HBLICTLogo 
+{ 
+	 left: 10px; 
+	 top: 738px; 
+	 position: absolute; 
+	 width: 73px;
+	 height: 28px;
+	 z-index:26;
+} 
+
+ #HBLICT2016 
+{ 
+	 left: 1250px; 
+	 top: 750px; 
+	 position: absolute; 
+	 width: 91px;
+	 height: 11px;
+	 z-index:27;
+} 
+#Meningitis 
+{ 
+	 left: 90%; 
+	 top: 460px; 
+	 position: absolute; 
+	 width: 84px;
+	 height: 15px;
+	 z-index:50;
+} 
+
+ #meningitis 
+{ 
+	 left: 90%; 
+	 top: 350px; 
+	 position: absolute; 
+	 width: 96px;
+	 height: 95px;
+	 z-index:51;
+} 
+
+ #DentalInfections 
+{ 
+	 left: 2%; 
+	 top: 460px; 
+	 position: absolute; 
+	 width: 141px;
+	 height: 15px;
+	 z-index:18;
+} 
+
+ #Dental 
+{ 
+	 left: 3%; 
+	 top: 350px; 
+	 position: absolute; 
+	 width: 92px;
+	 height: 92px;
+	 z-index:19;
+} 
+
+ #ViralInfections 
+{ 
+	 left: 79%; 
+	 top: 460px; 
+	 position: absolute; 
+	 width: 122px;
+	 height: 15px;
+	 z-index:20;
+} 
+
+ #virus 
+{ 
+	 left: 79%; 
+	 top: 350px; 
+	 position: absolute; 
+	 width: 95px;
+	 height: 95px;
+	 z-index:21;
+} 
+
+ #SkinInfections 
+{ 
+	 left: 68%; 
+	 top: 460px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 15px;
+	 z-index:22;
+} 
+
+ #skin 
+{ 
+	 left: 68%; 
+	 top: 350px; 
+	 position: absolute; 
+	 width: 95px;
+	 height: 95px;
+	 z-index:23;
+} 
+
+ #GenitalTract 
+{ 
+	 left: 57%; 
+	 top: 460px; 
+	 position: absolute; 
+	 width: 108px;
+	 height: 15px;
+	 z-index:24;
+} 
+
+ #genital 
+{ 
+	 left: 57%; 
+	 top: 350px; 
+	 position: absolute; 
+	 width: 92px;
+	 height: 95px;
+	 z-index:25;
+} 
+
+ #Gastro
+{ 
+	 left: 46%; 
+	 top: 350px; 
+	 position: absolute; 
+	 width: 92px;
+	 height: 92px;
+	 z-index:27;
+} 
+
+
+ #GastroIntestinalTrac 
+{ 
+	 left: 46%; 
+	 top: 460px; 
+	 position: absolute; 
+	 width: 92px;
+	 height: 92px;
+	 z-index:27;
+} 
+
+ #UrinaryTract 
+{ 
+	 left: 35%; 
+	top:460px; 
+	 position: absolute; 
+	 width: 92px;
+	 height: 92px;
+	 z-index:90;
+} 
+
+ #urinary
+{ 
+     top:350px;
+	 left: 35%; 
+	 position: absolute; 
+	 width: 92px;
+	 height: 92px;
+	 z-index:01;
+} 
+
+ #LowerRespiratory 
+{ 
+	 left: 24%; 
+	 top: 460px; 
+	 position: absolute; 
+	 width: 93px;
+	 height: 35px;
+	 z-index:30;
+} 
+
+ #lungs 
+{ 
+	 left: 24%; 
+	 top: 350px; 
+	 position: absolute; 
+	 width: 89px;
+	 height: 89px;
+	 z-index:31;
+} 
+
+
+
+ #nose 
+{ 
+	 left: 14%; 
+	 top: 350px; 
+	 position: absolute; 
+	 width: 89px;
+	 height: 89px;
+	 z-index:32;
+} 
+
+ #UpperRespiratory 
+{ 
+	 left: 14%; 
+	 top: 460px; 
+	 position: absolute; 
+	 width: 93px;
+	 height: 35px;
+	 z-index:33;
+} 
+
+ #send_form
+{ 
+	 left: 40px; 
+	 top: 308px; 
+	 position: absolute; 
+	 height: 35px;
+	 z-index:33;
+} 
+
+ #a_guidelines
+ {
+ left: 39px; 
+	 top: 293px; 
+	 position: absolute; 
+	 z-index:33;
+ }
+
+  #p_allergy
+ {
+ left: 55px; 
+	 top: 299px; 
+	 position: absolute; 
+	 z-index:33;
+ }
+
+#principles_of_treatment
+ {
+ left: 31px; 
+	 top: 302px; 
+	 position: absolute; 
+	 z-index:33;
+ }
+
+  #restricted_antibiotics
+  {
+ left: 42px; 
+	 top: 306px; 
+	 position: absolute; 
+	 z-index:33;
+  }

@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Herts Antibiotics Website</title>
+		<link href="css/styles2.css" rel="stylesheet" type="text/css"/>
+          <script type="text/javascript" src="js/scripts.js"></script>
+    <script  type="text/javascript" src="js/drugs.js"></script>
+          <style type="text/css">
+              .auto-style1 {
+                  text-decoration: none;
+                  COLOR: white;
+              }
+table{
+    color:black;
+    top:250px;
+    position:absolute;
+    border-collapse: collapse;
+    width: 100%;
+            <div id="TextBorderTOP"><img src="images/TextBorderTOP.png"></div>
+			<div id="Heading3"></div>
+			<div id="Rectangle2"><img src="images/Rectangle2.png"></div>
+			<div id="Heading1"><img src="images/Heading1.png"></div>
+			<div id="Table"><img src="images/Table.png"></div>
+   
+            
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+    color: white;
+    text-decoration:none;
+}
+
+a{
+   color:black;
+    text-decoration:none;
+}
+  tr:hover {
+       background-color: #08B7D6;
+        }
+
+  tr{ 
+       background-color: whitesmoke; 
+      
+  }
+
+th {
+    background-color: black;
+    color: black;
+}
+</style>
+</head>
+    
+
+
+    
+<body onload="generate_table();">
+     <div id="background">
+	
+		  	<div id="Linkbanner"><img src="images/TitleBackground.png"></div>
+            		<div id="Home" class="auto-style6"><a href="index.html" class="auto-style1">Home</a></div>
+
+			<div id="WhatsNewInThisVersio"><a href="whatsnew.html" class="auto-style1">What's new?</a></div>
+
+            <div id="AboutTheseGuidelines"><a href="aboutguidelines.html" class="auto-style1">About these Guidelines</a></div>
+
+			<div id="Feedback"><a href="feedback.html"class="auto-style1" >Feedback</a></div>
+
+			<div id="GettheApp"><a href="feedback.html" class="auto-style1">Get the App</a></div>
+
+			<div id="Header"><img src="images/Header.png"></div>
+
+			<div id="Greyseperationline"><img src="images/Greyseperationline.png"></div>
+
+			<div id="Antibioticslogo"><a href="index.html" ><img src="images/Antibioticslogo.png"></div>
+
+			<div id="HertfordshirePrimary"><a href="index.html" ><img src="images/HertfordshirePrimary.png"></div>
+
+			<div id="AntibioticGuidelines"><a href="index.html" ><img src="images/AntibioticGuidelines.png"></div>
+
+			<div id="NHSLogo"><img src="images/NHSLogo.png"></div>
+
+   
+    
+<script>
+
+    function gup(name, url) {
+        if (!url) url = location.href;
+        name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+        var regexS = "[\\?&]" + name + "=([^&#]*)";
+        var regex = new RegExp(regexS);
+        var results = regex.exec(url);
+        return results == null ? null : results[1];
+    }
+
+    function generate_table() {
+        // get the reference for the body
+        var body = document.getElementsByTagName("body")[0];
+
+        // creates a <table> element and a <tbody> element
+        var tbl = document.createElement("table");
+        
+        var tblBody = document.createElement("tbody");
+        //     var drug = ["Upper_Respiratory",
+        //                 "Lower_Respiratory",
+        //                 "Urinary_Tract",
+        //                  "Gastro_Intestinal Tract",
+        //                 "Genital_Tract",
+        //                  "Skin_Infections",
+        //                  "Viral_Infections",
+        //                 "Dental_Infections",
+        //                   "Meningitis"];
+
+      
+        var url = location.href;
+        var selected_drug = gup('id', url);
+        var drug = retrieve_drugs();
+        var index = drug.length;
+        var k;
+
+        // creating all cells
+
+
+        var body = document.getElementsByTagName("body")[0];
+
+        // create elements <table> and a <tbody>
+        var tbl = document.createElement("table");
+        var tblBody = document.createElement("tbody");
+
+        // creates a table row
+
+
+        for (var j = 0; j < index; j++) {
+
+
+
+            // Create a <td> element and a text node, make the text
+            // node the contents of the <td>, and put the <td> at
+            // the end of the table row
+            if (drug[j].Area == selected_drug) {
+                var row = document.createElement("tr");
+                var cell = document.createElement("td");
+                k = "";
+                var ht = '<a href="drug.html?id=' + drug[j].ID + '">';
+                var cellText = document.createTextNode(k);
+                cell.innerHTML = ht + drug[j].Infection + '</a>';
+                cell.appendChild(cellText);
+
+
+                row.appendChild(cell);
+                // add the row to the end of the table body
+                tblBody.appendChild(row);
+            }
+
+
+        }
+
+        // put the <tbody> in the <table>
+        tbl.appendChild(tblBody);
+        // appends <table> into <body>
+        body.appendChild(tbl);
+        // sets the border attribute of tbl to 2;
+        tbl.setAttribute("border", "2");
+    }
+
+
+</script>
+</body>
+</html>
